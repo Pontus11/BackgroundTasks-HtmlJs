@@ -1,0 +1,32 @@
+body {
+  margin-top: 0;
+  background-image: url("background.png");
+  background-size: cover;
+  font-family: serif, sans-serif;
+}
+
+h1 {
+  background-color: rgba(172, 172, 180, 0.33);
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+h2 {
+  border-bottom: gray solid 1px;
+  transform: rotate(0deg);
+  transition-property: transform;
+  transition-duration: 2s;
+}
+
+.halfColumn {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.2);
+}
+.columns:after {
+  clear: both;
+}
